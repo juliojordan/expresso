@@ -1,0 +1,22 @@
+{
+  "name": "expresso",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "debug": "DEBUG=expresso:* npm start",
+    "prettier": "prettier --write routes/*"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.653.0",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "morgan": "~1.9.1",
+    "uuid": "^7.0.3"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.2"
+  }
+}
